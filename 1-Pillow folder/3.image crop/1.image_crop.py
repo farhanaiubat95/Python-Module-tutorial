@@ -1,6 +1,6 @@
 from PIL import Image
 
-img = Image.open("Pillow folder/3.image crop/Sadman.jpg")
+img = Image.open("1-Pillow folder/3.image crop/Sadman.jpg")
 img.show()
 print("First image size : ", img.size)
 
