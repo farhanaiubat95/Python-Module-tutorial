@@ -1,6 +1,7 @@
 from PIL import Image, ImageFilter
 
-img = Image.open("1-Pillow folder/6.Image Filter/flower.jpg")
+img = Image.open(
+    "1-Pillow library for image modules/6.Image Filter/flower.jpg")
 img.show()
 
 # img.filter(ImageFilter.BLUR).show()

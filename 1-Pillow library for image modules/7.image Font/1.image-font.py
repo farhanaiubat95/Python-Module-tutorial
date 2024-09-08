@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 
-img = Image.open("1-Pillow folder/7.image Font/flower.jpg")
+img = Image.open("1-Pillow library for image modules/7.image Font/flower.jpg")
 
 # object of Imagedraw class
 draw = ImageDraw.Draw(img)
