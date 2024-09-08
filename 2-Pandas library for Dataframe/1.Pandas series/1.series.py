@@ -1,3 +1,4 @@
+# It is a one-dimensional array holding data of any type.
 import pandas as pd
 
 list = [10, 30, 50]
