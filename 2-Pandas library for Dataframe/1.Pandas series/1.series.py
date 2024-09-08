@@ -5,4 +5,4 @@ series = pd.Series(list)
 print(series)
 
 # lebels check
-print("\n* Lebel of 30 is : ", series[2])
+print("\n* Lebel of 2 is : ", series[2])
