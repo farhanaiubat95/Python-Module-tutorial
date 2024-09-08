@@ -9,7 +9,7 @@ draw = ImageDraw.Draw(img)
 fontt = ImageFont.truetype("arial.ttf", 150)
 
 # distance(x,y)
-distance = 50, 50
+distance = 140, img.height/2
 
 # text for writing over image
 text = "This is a beautiful rose."
