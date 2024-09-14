@@ -1,0 +1,1 @@
+print("Number of Dimension : ",array.ndim)
