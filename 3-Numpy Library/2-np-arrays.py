@@ -45,6 +45,7 @@ print("Number of Dimension : ", array.ndim)
 # ----3-D arrays
 # An array that has 2-D arrays (matrices) as its elements is called 3-D array.
 print()
+#2x(2x3)
 array = np.array([[[1, 2, 3, 4], [5, 6, 7, 8]], [
                  [22, 23, 24, 25], [33, 34, 35, 36]]])
 print("3-D Arrays : \n", array)
