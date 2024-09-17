@@ -3,7 +3,7 @@
 import pandas as pd
 
 dataFrame = pd.read_csv(
-    r"G:\Python-Module-tutorial\2-Pandas library for Dataframe\5.Pandas Analyzing DataFrame\data.csv")
+    r"G:\Python-Module-tutorial\2-Pandas library for Dataframe\titanic.csv")
 
 # Note: if the number of rows is not specified, the head() method will return the top 5 rows.
 print("* Not specified rows number, so it's printed only 5 rows : ")
@@ -11,7 +11,7 @@ print(dataFrame.head())
 
 # printing the first 7 rows of the DataFrame
 print("\n** First 7 rows are printed below : ")
-print(dataFrame.head(7))
+print(dataFrame.head(1000))
 
 
 # There is also a tail() method for viewing the last rows of the DataFrame.
