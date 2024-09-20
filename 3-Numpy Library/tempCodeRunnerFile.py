@@ -1,1 +1,1 @@
-print("Number of Dimension : ",array.ndim)
+ return indx [1],[3],[5]
