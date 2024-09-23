@@ -33,4 +33,13 @@ print("5 - Print 1D arrays containing 5 random float number from 0 to 1 :  \n\t"
 num = random.rand(3, 4)  # 3 rows & 4 columns
 print("6 - Print 2D arrays containing 3 rows & 4 columns random float number from 0 to 1 :  \n", num)
 
+# choice() method
+# Generate Random Number From Array
+print()
+# 1-D array that consists of the values
+num = random.choice([10, 20, 9, 3, 15, 100, 30])
+print("6 - Print a value from 1D array[10, 20, 9, 3, 15, 100, 30] :  ", num)
 
+# 2-D array that consists of the values
+num = random.choice([10, 20, 9, 3, 15, 100, 30], size=(3, 4))
+print("7 - Print a value from 2D array[10, 20, 9, 3, 15, 100, 30] :  \n", num)
