@@ -3,6 +3,8 @@
 # loc   - (Mean) where the peak of the bell exists.
 # scale - (Standard Deviation) how flat the graph distribution should be.
 # size  - The shape of the returned array.
+
+# normal distribution is (continous) whereas binomial is (discrete)
 from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
