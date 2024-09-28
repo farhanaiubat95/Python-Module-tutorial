@@ -11,7 +11,6 @@ import seaborn as sns
 array = random.poisson(lam=2, size=1000)
 print('1 - The poisson array where lam = 2, size = 1000 : ', array)
 
-
 sns.distplot(array, kde=False)
 plt.show()
 
