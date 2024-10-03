@@ -5,8 +5,16 @@
 # b - upper bound - default 1.0.
 # size - The shape of the returned array.
 
-from numpy import random
+from numpy import random as rd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-array = random.uniform(size=(2, 3))
+array = rd.uniform(size=(2, 3))
 
-print('1 - Original array', array)
+print('1 - Original array : \n', array)
+
+sns.distplot(array, hist=False)
+plt.show()
+
+sns.distplot(rd.uniform(size=1000), hist=False)
+plt.show()
