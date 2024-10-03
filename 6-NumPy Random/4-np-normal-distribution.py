@@ -9,9 +9,14 @@ from numpy import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+array = random.normal(1.75, 2.5, 1000)
+# The "bins" are usually specified as consecutive, non-overlapping intervals of a variable.
+plt.hist(array, bins=50)
+plt.title("Normal Distribution")
+plt.show()
+
 array = random.normal(loc=1, scale=2, size=(3, 4))
 print('1 - a random normal distribution of size 3x4 :\n', array)
-
 
 # showing seaborn plot
 sns.distplot(array, hist=False)
